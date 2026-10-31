@@ -1,0 +1,32 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+install.log
+*.log
+.vite
+coverage
+
+# 安卓打包：构建产物、本机路径、签名密钥都不进版本库
+android/.gradle
+android/build
+android/app/build
+android/local.properties
+android/keystore.properties
+android/*.jks
+android/app/src/main/assets/public
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+
+# 打包中间产物 / 临时解包目录
+.apkwww/
+.ziptmp/
+.dicts/
+
+# 安装包走 GitHub Release 附件，不进版本库（避免历史永久变大）
+*.apk

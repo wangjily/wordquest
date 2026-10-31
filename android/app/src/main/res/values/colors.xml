@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌紫，与网页端的 brand 色值一致 -->
+    <color name="colorPrimary">#7C5CFF</color>
+    <color name="colorPrimaryDark">#080B14</color>
+    <color name="colorAccent">#7C5CFF</color>
+
+    <!-- App 底色，与网页深色背景一致，避免启动时白闪 -->
+    <color name="wq_background">#080B14</color>
+    <color name="wq_nav">#080B14</color>
+</resources>
