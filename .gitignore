@@ -33,3 +33,6 @@ android/app/src/main/res/xml/config.xml
 
 # 部署包（由 dist 重新打包生成）
 wordquest-words.zip
+
+# TS 增量编译缓存
+*.tsbuildinfo
