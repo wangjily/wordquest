@@ -30,3 +30,6 @@ android/app/src/main/res/xml/config.xml
 
 # 安装包走 GitHub Release 附件，不进版本库（避免历史永久变大）
 *.apk
+
+# 部署包（由 dist 重新打包生成）
+wordquest-words.zip
