@@ -4,6 +4,9 @@
 
 纯静态前端应用，`npm run build` 的产物可直接部署到任何服务器。
 
+**安装（安卓）**：[下载最新 APK](https://github.com/wangjily/wordquest/releases/latest) · 覆盖安装即可，进度不会丢
+**网页版**：`npm run build` 后把 `dist/` 丢到任意静态服务器
+
 ---
 
 ## 特性
